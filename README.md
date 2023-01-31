@@ -1,9 +1,9 @@
 <h1 align="center"> ICS4U Codespace Startup </h1>
 <img src="https://github.com/Mr-Coxall/ICS3U-Codespace-Startup/raw/main/images/github-codespaces.png" alt="github-codespaces" class="center">
 
-Use this GitHub repo to setup an ICS3U Codespace.
+Use this GitHub repo to setup an ICS4U Codespace.
 
-It includes everything you will need to code in Python and C/C++.
+It includes everything you will need to code in Java.
 
 <br>
 To create the Codespace from this repo, click on <img src="https://github.com/Mr-Coxall/ICS3U-Codespace-Startup/raw/main/images/code.png" alt="code" height="25"> and then click on <img src="https://github.com/Mr-Coxall/ICS3U-Codespace-Startup/raw/main/images/codespace.png" alt="codespace" height="25"> to create a new Codespace.
