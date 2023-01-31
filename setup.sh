@@ -2,6 +2,8 @@
 
 # Created by: Mr Coxall
 # Created on: Jun 2022
+# Modified by: Ms Raffin
+# Modified on: Feb 2023
 # Created for: To automate the generation of SSH GitHub keys
 
 
@@ -52,19 +54,29 @@ echo "When it does, close this orginial one and use the new Codespace window."
 echo "When ready, press any key."
 read  any_key
 
-# create an ICS3U directory in the root directory
+# create an ICS4U directory in the root directory
 mkdir ~/ICS4U
+mkdir ~/ICS4U/Assign
+mkdir ~/ICS4U/Assign/Assign-01
+mkdir ~/ICS4U/Assign/Assign-02
+mkdir ~/ICS4U/Assign/Assign-03
+mkdir ~/ICS4U/Assign/Assign-04
 mkdir ~/ICS4U/Unit1
 mkdir ~/ICS4U/Unit1/Unit1-01
 mkdir ~/ICS4U/Unit1/Unit1-02
 mkdir ~/ICS4U/Unit1/Unit1-03
 mkdir ~/ICS4U/Unit1/Unit1-04
+mkdir ~/ICS4U/Unit1/Unit1-05
+mkdir ~/ICS4U/Unit1/Unit1-06
+mkdir ~/ICS4U/Unit1/Unit1-07
+mkdir ~/ICS4U/Unit1/Unit1-08
 mkdir ~/ICS4U/Unit2
 mkdir ~/ICS4U/Unit2/Unit2-01
 mkdir ~/ICS4U/Unit2/Unit2-02
 mkdir ~/ICS4U/Unit2/Unit2-03
 mkdir ~/ICS4U/Unit2/Unit2-04
 mkdir ~/ICS4U/Unit2/Unit2-05
+mkdir ~/ICS4U/Unit2/Unit2-06
 mkdir ~/ICS4U/Unit3
 mkdir ~/ICS4U/Unit3/Unit3-01
 mkdir ~/ICS4U/Unit3/Unit3-02
@@ -76,26 +88,7 @@ mkdir ~/ICS4U/Unit3/Unit3-07
 mkdir ~/ICS4U/Unit3/Unit3-08
 mkdir ~/ICS4U/Unit4
 mkdir ~/ICS4U/Unit4/Unit4-01
-mkdir ~/ICS4U/Unit4/Unit4-02
-mkdir ~/ICS4U/Unit4/Unit4-03
-mkdir ~/ICS4U/Unit4/Unit4-04
-mkdir ~/ICS4U/Unit4/Unit4-05
-mkdir ~/ICS4U/Unit4/Unit4-06
-mkdir ~/ICS4U/Unit4/Unit4-07
-mkdir ~/ICS4U/Unit5
-mkdir ~/ICS4U/Unit5/Unit5-01
-mkdir ~/ICS4U/Unit5/Unit5-02
-mkdir ~/ICS4U/Unit5/Unit5-03
-mkdir ~/ICS4U/Unit5/Unit5-04
-mkdir ~/ICS4U/Unit5/Unit5-05
-mkdir ~/ICS4U/Unit5/Unit5-06
-mkdir ~/ICS4U/Unit6
-mkdir ~/ICS4U/Unit6/Unit6-01
-mkdir ~/ICS4U/Unit6/Unit6-02
-mkdir ~/ICS4U/Unit6/Unit6-03
-mkdir ~/ICS4U/Unit6/Unit6-04
-mkdir ~/ICS4U/Unit6/Unit6-05
-mkdir ~/ICS4U/Unit6/Unit6-06
+
 
 # copy over the .vscode directory into it
 cp -r .vscode ~/ICS4U/.vscode
