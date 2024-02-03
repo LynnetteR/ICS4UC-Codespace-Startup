@@ -3,7 +3,7 @@
 # Created by: Mr Coxall
 # Created on: Jun 2022
 # Modified by: Ms Raffin
-# Modified on: Feb 2023
+# Modified on: Feb 2024
 # Created for: To automate the generation of SSH GitHub keys
 
 
@@ -13,9 +13,9 @@ echo ""
 
 echo "Please enter your full name (ex: Jane Smith): "
 read  name
-echo "Please enter your email address that you used to setup GitHub (ex: mr.coxall@mths.ca): "
+echo "Please enter your email address that you used to setup GitHub (ex: lynnette.raffin@ocsb.ca): "
 read  email
-echo "Please enter your GitHub user name (ex: mr-coxall): "
+echo "Please enter your GitHub user name (ex: ms-raffin): "
 read  user
 
 echo ""
@@ -61,15 +61,21 @@ mkdir ~/ICS4U/Assign/Assign-01
 mkdir ~/ICS4U/Assign/Assign-02
 mkdir ~/ICS4U/Assign/Assign-03
 mkdir ~/ICS4U/Assign/Assign-04
+mkdir ~/ICS4U/Assign/Assign-05
+mkdir ~/ICS4U/Intro
+mkdir ~/ICS4U/Intro/Intro-01
+mkdir ~/ICS4U/Intro/Intro-02
+mkdir ~/ICS4U/Intro/Intro-03
+mkdir ~/ICS4U/Intro/Intro-04
+mkdir ~/ICS4U/Intro/Intro-05
+mkdir ~/ICS4U/Intro/Intro-06
+mkdir ~/ICS4U/Intro/Intro-07
+mkdir ~/ICS4U/RST
 mkdir ~/ICS4U/Unit1
 mkdir ~/ICS4U/Unit1/Unit1-01
 mkdir ~/ICS4U/Unit1/Unit1-02
 mkdir ~/ICS4U/Unit1/Unit1-03
 mkdir ~/ICS4U/Unit1/Unit1-04
-mkdir ~/ICS4U/Unit1/Unit1-05
-mkdir ~/ICS4U/Unit1/Unit1-06
-mkdir ~/ICS4U/Unit1/Unit1-07
-mkdir ~/ICS4U/Unit1/Unit1-08
 mkdir ~/ICS4U/Unit2
 mkdir ~/ICS4U/Unit2/Unit2-01
 mkdir ~/ICS4U/Unit2/Unit2-02
@@ -83,12 +89,10 @@ mkdir ~/ICS4U/Unit3/Unit3-02
 mkdir ~/ICS4U/Unit3/Unit3-03
 mkdir ~/ICS4U/Unit3/Unit3-04
 mkdir ~/ICS4U/Unit3/Unit3-05
-mkdir ~/ICS4U/Unit3/Unit3-06
-mkdir ~/ICS4U/Unit3/Unit3-07
-mkdir ~/ICS4U/Unit3/Unit3-08
 mkdir ~/ICS4U/Unit4
 mkdir ~/ICS4U/Unit4/Unit4-01
-
+mkdir ~/ICS4U/Unit4/Unit4-02
+mkdir ~/ICS4U/Unit4/Unit4-03
 
 # copy over the .vscode directory into it
 cp -r .vscode ~/ICS4U/.vscode
