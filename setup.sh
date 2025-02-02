@@ -2,8 +2,8 @@
 
 # Created by: Mr Coxall
 # Created on: Jun 2022
-# Modified by: Ms Raffin
-# Modified on: Feb 2024
+# Edited by: Ms Raffin
+# Modified on: Feb 2025
 # Created for: To automate the generation of SSH GitHub keys
 
 
@@ -61,7 +61,6 @@ mkdir ~/ICS4U/Assign/Assign-01
 mkdir ~/ICS4U/Assign/Assign-02
 mkdir ~/ICS4U/Assign/Assign-03
 mkdir ~/ICS4U/Assign/Assign-04
-mkdir ~/ICS4U/Assign/Assign-05
 mkdir ~/ICS4U/Intro
 mkdir ~/ICS4U/Intro/Intro-01
 mkdir ~/ICS4U/Intro/Intro-02
@@ -83,16 +82,26 @@ mkdir ~/ICS4U/Unit2/Unit2-03
 mkdir ~/ICS4U/Unit2/Unit2-04
 mkdir ~/ICS4U/Unit2/Unit2-05
 mkdir ~/ICS4U/Unit2/Unit2-06
+mkdir ~/ICS4U/Unit2/Unit2-07
+mkdir ~/ICS4U/Unit2/Unit2-08
 mkdir ~/ICS4U/Unit3
 mkdir ~/ICS4U/Unit3/Unit3-01
 mkdir ~/ICS4U/Unit3/Unit3-02
 mkdir ~/ICS4U/Unit3/Unit3-03
 mkdir ~/ICS4U/Unit3/Unit3-04
 mkdir ~/ICS4U/Unit3/Unit3-05
+mkdir ~/ICS4U/Unit3/Unit3-06
+mkdir ~/ICS4U/Unit3/Unit3-07
+mkdir ~/ICS4U/Unit3/Unit3-08
+mkdir ~/ICS4U/Unit3/Unit3-09
 mkdir ~/ICS4U/Unit4
 mkdir ~/ICS4U/Unit4/Unit4-01
 mkdir ~/ICS4U/Unit4/Unit4-02
 mkdir ~/ICS4U/Unit4/Unit4-03
+mkdir ~/ICS4U/Unity
+mkdir ~/ICS4U/Unit4/Unity-01
+mkdir ~/ICS4U/Unit4/Unity-02
+mkdir ~/ICS4U/Unit4/Unity-03
 
 # copy over the .vscode directory into it
 cp -r .vscode ~/ICS4U/.vscode
