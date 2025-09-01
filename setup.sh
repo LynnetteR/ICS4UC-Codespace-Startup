@@ -11,7 +11,7 @@
 echo "This script will setup your SSH key with GitHub"
 echo ""
 
-echo "Please enter your full name (ex: Jane Smith): "
+echo "Please enter your full name (ex: Laila Smeeterhod): "
 read  name
 echo "Please enter your email address that you used to setup GitHub (ex: lynnette.raffin@ocsb.ca): "
 read  email
