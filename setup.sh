@@ -3,7 +3,7 @@
 # Created by: Mr Coxall
 # Created on: Jun 2022
 # Edited by: Ms Raffin
-# Modified on: Sep 2025
+# Modified on: Aug 2026
 # Created for: To automate the generation of SSH GitHub keys
 
 
@@ -15,7 +15,7 @@ echo "Please enter your full name (ex: Laila Smeeterhod): "
 read  name
 echo "Please enter your email address that you used to setup GitHub (ex: laila.smeeterhod@stu.ocsb.ca): "
 read  email
-echo "Please enter your GitHub user name (ex: layla08): "
+echo "Please enter your GitHub user name (ex: LaylaS): "
 read  user
 
 echo ""
@@ -55,63 +55,63 @@ echo "When ready, press any key."
 read  any_key
 
 # create an ICS4U directory in the root directory
-mkdir ~/ICS4U
-mkdir ~/ICS4U/Assign
-mkdir ~/ICS4U/Assign/Assign-01
-mkdir ~/ICS4U/Assign/Assign-02
-mkdir ~/ICS4U/Assign/Assign-03
-mkdir ~/ICS4U/Assign/Assign-04
-mkdir ~/ICS4U/Intro
-mkdir ~/ICS4U/Intro/Intro-01
-mkdir ~/ICS4U/Intro/Intro-02
-mkdir ~/ICS4U/Intro/Intro-03
-mkdir ~/ICS4U/Intro/Intro-04
-mkdir ~/ICS4U/Intro/Intro-05
-mkdir ~/ICS4U/Intro/Intro-06
-mkdir ~/ICS4U/Intro/Intro-07
-mkdir ~/ICS4U/RST
-mkdir ~/ICS4U/Unit1
-mkdir ~/ICS4U/Unit1/Unit1-01
-mkdir ~/ICS4U/Unit1/Unit1-02
-mkdir ~/ICS4U/Unit1/Unit1-03
-mkdir ~/ICS4U/Unit1/Unit1-04
-mkdir ~/ICS4U/Unit2
-mkdir ~/ICS4U/Unit2/Unit2-01
-mkdir ~/ICS4U/Unit2/Unit2-02
-mkdir ~/ICS4U/Unit2/Unit2-03
-mkdir ~/ICS4U/Unit2/Unit2-04
-mkdir ~/ICS4U/Unit2/Unit2-05
-mkdir ~/ICS4U/Unit2/Unit2-06
-mkdir ~/ICS4U/Unit2/Unit2-07
-mkdir ~/ICS4U/Unit3
-mkdir ~/ICS4U/Unit3/Unit3-01
-mkdir ~/ICS4U/Unit3/Unit3-02
-mkdir ~/ICS4U/Unit3/Unit3-03
-mkdir ~/ICS4U/Unit4
-mkdir ~/ICS4U/Unit4/Unit4-01
-mkdir ~/ICS4U/Unit4/Unit4-02
-mkdir ~/ICS4U/Unit4/Unit4-03
-mkdir ~/ICS4U/Unit4/Unit4-04
-mkdir ~/ICS4U/Unit4/Unit4-05
-mkdir ~/ICS4U/Unit5
-mkdir ~/ICS4U/Unit5/Unit5-01
-mkdir ~/ICS4U/Unit5/Unit5-02
-mkdir ~/ICS4U/Unit5/Unit5-03
-mkdir ~/ICS4U/Unit5/Unit5-04
-mkdir ~/ICS4U/Unit5/Unit5-05
-mkdir ~/ICS4U/Unit5/Unit5-06
-mkdir ~/ICS4U/Unity
-mkdir ~/ICS4U/Unit4/Unity-01
-mkdir ~/ICS4U/Unit4/Unity-02
-mkdir ~/ICS4U/Unit4/Unity-03
+mkdir ~/ICS4UC
+mkdir ~/ICS4UC/Assign
+mkdir ~/ICS4UC/Assign/Assign-01
+mkdir ~/ICS4UC/Assign/Assign-02
+mkdir ~/ICS4UC/Assign/Assign-03
+mkdir ~/ICS4UC/Assign/Assign-04
+mkdir ~/ICS4UC/Intro
+mkdir ~/ICS4UC/Intro/Intro-01
+mkdir ~/ICS4UC/Intro/Intro-02
+mkdir ~/ICS4UC/Intro/Intro-03
+mkdir ~/ICS4UC/Intro/Intro-04
+mkdir ~/ICS4UC/Intro/Intro-05
+mkdir ~/ICS4UC/Intro/Intro-06
+mkdir ~/ICS4UC/Intro/Intro-07
+mkdir ~/ICS4UC/RST
+mkdir ~/ICS4UC/Unit1
+mkdir ~/ICS4UC/Unit1/Unit1-01
+mkdir ~/ICS4UC/Unit1/Unit1-02
+mkdir ~/ICS4UC/Unit1/Unit1-03
+mkdir ~/ICS4UC/Unit1/Unit1-04
+mkdir ~/ICS4UC/Unit2
+mkdir ~/ICS4UC/Unit2/Unit2-01
+mkdir ~/ICS4UC/Unit2/Unit2-02
+mkdir ~/ICS4UC/Unit2/Unit2-03
+mkdir ~/ICS4UC/Unit2/Unit2-04
+mkdir ~/ICS4UC/Unit2/Unit2-05
+mkdir ~/ICS4UC/Unit2/Unit2-06
+mkdir ~/ICS4UC/Unit2/Unit2-07
+mkdir ~/ICS4UC/Unit3
+mkdir ~/ICS4UC/Unit3/Unit3-01
+mkdir ~/ICS4UC/Unit3/Unit3-02
+mkdir ~/ICS4UC/Unit3/Unit3-03
+mkdir ~/ICS4UC/Unit4
+mkdir ~/ICS4UC/Unit4/Unit4-01
+mkdir ~/ICS4UC/Unit4/Unit4-02
+mkdir ~/ICS4UC/Unit4/Unit4-03
+mkdir ~/ICS4UC/Unit4/Unit4-04
+mkdir ~/ICS4UC/Unit4/Unit4-05
+mkdir ~/ICS4UC/Unit5
+mkdir ~/ICS4UC/Unit5/Unit5-01
+mkdir ~/ICS4UC/Unit5/Unit5-02
+mkdir ~/ICS4UC/Unit5/Unit5-03
+mkdir ~/ICS4UC/Unit5/Unit5-04
+mkdir ~/ICS4UC/Unit5/Unit5-05
+mkdir ~/ICS4UC/Unit5/Unit5-06
+mkdir ~/ICS4UC/Unity
+mkdir ~/ICS4UC/Unit4/Unity-01
+mkdir ~/ICS4UC/Unit4/Unity-02
+mkdir ~/ICS4UC/Unit4/Unity-03
 
 # copy over the .vscode directory into it
-cp -r .vscode ~/ICS4U/.vscode
+cp -r .vscode ~/ICS4UC/.vscode
 
 # update the .bashrc to add in aliases for ll, ..
 cp .bashrc ~/.bashrc
 source ~/.bashrc
 
 # change into the ICS4U directory and then open Codespaces in there
-cd ~/ICS4U
+cd ~/ICS4UC
 code .
