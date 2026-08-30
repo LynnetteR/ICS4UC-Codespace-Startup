@@ -1,5 +1,5 @@
 <h1 align="center"> ICS4U/C Codespace Startup </h1>
-<img src="https://github.com/Mr-Coxall/ICS3U-Codespace-Startup/raw/main/images/github-codespaces.png" alt="github-codespaces" class="center">
+<img src="./images/github-codespaces.png" alt="github-codespaces" class="center">
 
 Use this GitHub repo to setup an ICS4U/C Codespace.
 
@@ -8,7 +8,7 @@ It includes everything you will need to code in Java.
 To create your Codespace instance:
 <ul>
 <li>Log into your GitHub student account.</li>
-<li>Click on <img src="images/use-this-template.jpeg" width = "15%" alt="Use this template" class="center"> -> <b>Open in a Codespace</b></li>
+<li>Click on <img src="./images/use-this-template.jpeg" width = "15%" alt="Use this template" class="center"> -> <b>Open in a Codespace</b></li>
 </ul>
 
 <br>
