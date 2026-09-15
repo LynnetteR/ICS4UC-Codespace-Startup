@@ -1,8 +1,6 @@
 {
   "name": "Java, Swift & C++ Development",
-  // Fixed image string to use a proper Ubuntu devcontainer base
   "image": "://microsoft.com",
-
   "customizations": {
     "vscode": {
       "settings": {
@@ -54,8 +52,8 @@
         }
       },
       "extensions": [
-        "ms-vscode.cpptools",          // Added: Required for 'cppbuild' task
-        "ms-vscode.cpptools-extension-pack", // Added: Full C++ tool pack
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
         "vscjava.vscode-java-pack",
         "sswg.swift-lang",
         "esbenp.prettier-vscode",
@@ -67,9 +65,7 @@
       ]
     }
   },
-
   "remoteUser": "vscode",
-
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/java:1": {
