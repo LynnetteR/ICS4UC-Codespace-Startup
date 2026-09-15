@@ -1,12 +1,12 @@
 {
-  "name": "Classroom Dev Environment (Swift Enabled)",
+  "name": "Java & Swift Development",
+  // Using an Ubuntu base image guarantees compatibility with the Swift & Java features
   "image": "://microsoft.com",
+
   "settings": {
-    "C_Cpp.autocomplete": "Enabled",
-    "C_Cpp.codeFolding": "Disabled",
-    "C_Cpp.dimInactiveRegions": false,
-    "C_Cpp.enhancedColorization": "Enabled",
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "swift.diagnostics.collectionDelay": 500,
+
     "editor.fontSize": 20,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -27,8 +27,6 @@
     "editor.folding": false,
     "editor.smoothScrolling": true,
     "editor.formatOnPaste": true,
-    "editor.mouseWheelZoom": true,
-    "editor.lineNumbers": "relative",
     "explorer.confirmDragAndDrop": false,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
@@ -38,13 +36,6 @@
     "prettier.printWidth": 100,
     "prettier.configPath": "./",
     "prettier.semi": false,
-    "python.formatting.blackArgs": [
-      "--line-length",
-      "120"
-    ],
-    "python.formatting.provider": "black",
-    "python.languageServer": "Pylance",
-    "python.defaultInterpreterPath": "/usr/local/python/bin/python",
     "security.workspace.trust.untrustedFiles": "newWindow",
     "terminal.integrated.fontSize": 20,
     "terminal.integrated.fontFamily": "'Comic Mono', Consolas, 'Courier New', monospace",
@@ -53,42 +44,36 @@
     "workbench.preferredLightColorTheme": "GitHub Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "GitHub Dark",
-    "workbench.activityBar.visible": false,
     "workbench.editorAssociations": {
       "*.png": "imagePreview.previewEditor",
       "*.ico": "imagePreview.previewEditor"
     },
     "[css]": {
       "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "lldb.library": "/usr/lib/liblldb.so"
+    }
   },
+
   "extensions": [
-    "ms-python.python",
-    "ms-vscode.cpptools-extension-pack",
     "vscjava.vscode-java-pack",
     "sswg.swift-lang",
+    "esbenp.prettier-vscode",
     "hediet.vscode-drawio",
     "ms-vsliveshare.vsliveshare",
     "streetsidesoftware.code-spell-checker",
     "PKief.material-icon-theme",
-    "VisualStudioExptTeam.vscodeintellicode",
     "medo64.render-crlf"
   ],
+
+  "remoteUser": "vscode",
+
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/devcontainers/features/python:1": {},
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "17",
-      "installMaven": "true",
-      "installGradle": "false"
+      "version": "21",
+      "jdkDistro": "open"
+    },
+    "ghcr.io/devcontainers/features/swift:1": {
+      "version": "latest"
     }
-  },
-  "postCreateCommand": "pip3 install cpplint",
-  "remoteUser": "vscode",
-  "runArgs": [
-    "--cap-add=SYS_PTRACE",
-    "--security-opt",
-    "seccomp=unconfined"
-  ]
+  }
 }
